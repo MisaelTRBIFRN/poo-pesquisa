@@ -1,4 +1,4 @@
-public abstract  class Animal implements IEmitirSom, ISeMover, IDormir {
+public abstract class Animal implements IEmitirSom, ISeMover, IDormir {
     // atributos
     protected int n_patas;
     protected String animal, nome;
@@ -98,3 +98,4 @@ public abstract  class Animal implements IEmitirSom, ISeMover, IDormir {
         System.out.println("* Números de patas: " + this.getNPatas());
     }
 }
+
