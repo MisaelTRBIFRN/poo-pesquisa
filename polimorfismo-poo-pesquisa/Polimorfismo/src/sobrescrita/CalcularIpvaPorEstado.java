@@ -1,6 +1,6 @@
 package sobrescrita;
 
-public abstract class CalcularIpvaPorEstado{
+public abstract class CalcularIpvaPorEstado {
     protected double v_dcarro;
     protected double Valor_Final;
 
@@ -25,4 +25,5 @@ public abstract class CalcularIpvaPorEstado{
     public void exibir(){
         System.out.println("Valor do IPVA a Pagar: R$" + c_ImpostoIpva());
     }
+
 }
