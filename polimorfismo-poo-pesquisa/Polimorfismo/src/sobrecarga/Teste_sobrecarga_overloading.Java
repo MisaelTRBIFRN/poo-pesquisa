@@ -1,7 +1,7 @@
 package sobrecarga;
 
 public class Teste_sobrecarga_overloading{
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         //sobrecarga (overloading).
 
         Multiplicacao calc = new Multiplicacao();
@@ -14,3 +14,4 @@ public class Teste_sobrecarga_overloading{
 
     }
 }
+
